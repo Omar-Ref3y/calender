@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  text-transform: capitalize;
+}
+body {
+  height: 100vh;
+  background-color: olive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #fff;
+  width: 25rem;
+  height: 30rem;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.644);
+  overflow: hidden;
+  position: relative;
+}
+.month {
+  text-align: center;
+  padding: 1rem;
+  background-color: crimson;
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.container div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.day-name{
+    color: darkgray;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+.day-num{
+    font-size: 10rem;
+    font-weight: 600;
+}
+.year{
+    padding-bottom: 1rem;
+    color: darkgray;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
